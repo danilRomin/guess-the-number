@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ca64d6c-8bc1-4f44-8838-1311ec8675a8" name="Changes" comment="full">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basics of JS/gorod" beforeDir="false" afterPath="$PROJECT_DIR$/../Basics of JS/gorod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basics of JS/jslearn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basics of JS/jslearn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basics of JS/jslearn/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Basics of JS/jslearn/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interaction with elements/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Interaction with elements/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bebra/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bebra/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bebra/Текстовый документ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/bootstrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/script/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../calc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calc/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../calc/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gazpromin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../gazpromin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/.idea/gorod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/100let-odin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/SHABLON" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/css/stylebook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/100let.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/2block/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ad/detectives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ad/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ad/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/car2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/chitay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/deadhead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/detectives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/favorites.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/gps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/hleb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ic_bar/box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ic_bar/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ic_bar/favorites.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ic_bar/lupa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ic_bar/vhod1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ic_btn/book(white).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/krestik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/logo2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/lupa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/main/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/main/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/main/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/main/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/maket1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/maket2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/maket3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/metro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/orden2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/owl_1678091693954229594.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/plane1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/plane1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/plane11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/png-transparent-computer-icons-book-book-text-monochrome-desktop-wallpaper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/pods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/screenshots/scr1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/screenshots/scr2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/screenshots/scr3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/screenshots/scr4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/100let.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/deadhead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/fav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/fav.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/hleb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/pods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase/zme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase2/kor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase2/kos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase2/por.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase2/ray.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/showcase2/ten.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/vhod.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/img/wizard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/SHABLON" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/trash/trash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gorod/zmey-and-golubka.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grid/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript/uslovniePerem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/.idea/jslearn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jslearn/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localhost/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localhost/library-db_2023-04-28.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localhost/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localhost/save_new.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marathon-urok-2/.idea/marathon-urok-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marathon-urok-2/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/.idea/orange.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/.idea/orange.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orange/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../orange/scss/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photocards/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../photocards/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/.idea/projscss.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projscss/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../random/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../random/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../random/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../random/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../random/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../random/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../random/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../random/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../self/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../self/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../self/img/instagram-internet-media-svgrepo-com (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../self/img/telegram-outline-svgrepo-com (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../self/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webCademy/.idea/webCademy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zalupa/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Ti3T3ekFn3P0M3pbL5NMKGYbcu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Даниил/Desktop/www",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ca64d6c-8bc1-4f44-8838-1311ec8675a8" name="Changes" comment="" />
+      <created>1691512077735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691512077735</updated>
+      <workItem from="1691512078956" duration="2622000" />
+      <workItem from="1691514953619" duration="296000" />
+      <workItem from="1691825468139" duration="12288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="full" />
+    <option name="LAST_COMMIT_MESSAGE" value="full" />
+  </component>
+</project>

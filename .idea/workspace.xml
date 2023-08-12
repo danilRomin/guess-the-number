@@ -27,8 +27,12 @@
       <change beforePath="$PROJECT_DIR$/../bootstrap/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../calc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../calc/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../calc/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../calc/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gazpromin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../gazpromin/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/gorod.iml" beforeDir="false" />
@@ -176,7 +180,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Ti3T3ekFn3P0M3pbL5NMKGYbcu" />
   <component name="ProjectViewState">
@@ -188,7 +192,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "C:/Users/Даниил/Desktop/www",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -209,7 +213,7 @@
       <updated>1691512077735</updated>
       <workItem from="1691512078956" duration="2622000" />
       <workItem from="1691514953619" duration="296000" />
-      <workItem from="1691825468139" duration="12288000" />
+      <workItem from="1691825468139" duration="15221000" />
     </task>
     <servers />
   </component>

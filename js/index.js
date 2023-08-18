@@ -170,3 +170,11 @@ document.querySelector(".restart").addEventListener("click", () => {
         score.textContent = 5;
     }
 })
+
+// Событие при нажатии на Enter
+document.querySelector('.int').addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        document.querySelector('.reset').click();
+    }
+});

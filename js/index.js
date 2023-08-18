@@ -192,3 +192,20 @@ document.querySelector('.int').addEventListener("keydown", function (event) {
         document.querySelector('.reset').click();
     }
 });
+
+// Модальное окно
+function modalToggle () {
+    document.querySelector(".modal").classList.toggle("hide")
+    document.querySelector(".overlay").classList.toggle("hide")
+}
+
+document.querySelector(".mark__main").addEventListener("click", modalToggle)
+document.querySelector(".overlay").addEventListener("click", modalToggle)
+document.querySelector(".close__modal").addEventListener("click", modalToggle)
+
+document.addEventListener("keyup", (event) => {
+    if (event.key === "Escape") {
+        document.querySelector(".modal").classList.add("hide")
+        document.querySelector(".overlay").classList.add("hide")
+    }
+})

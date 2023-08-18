@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ca64d6c-8bc1-4f44-8838-1311ec8675a8" name="Changes" comment="full">
+      <change afterPath="$PROJECT_DIR$/../Basics of JS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basics of JS/.idea/Basics of JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basics of JS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basics of JS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interaction with elements/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interaction with elements/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/watcherTasks.xml" afterDir="false" />
@@ -18,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/bootstrap.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootstrap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/css.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/index.html" afterDir="false" />
@@ -27,9 +32,26 @@
       <change beforePath="$PROJECT_DIR$/../bootstrap/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../calc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../calc/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../calc/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../calc/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/.idea/dom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/.idea/dom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dom/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gazpromin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../gazpromin/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/gorod.iml" beforeDir="false" />
@@ -190,13 +212,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Даниил/Desktop/www",
+    "last_opened_file_path": "C:/Users/Даниил/Desktop/www/game",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -210,7 +232,11 @@
       <updated>1691512077735</updated>
       <workItem from="1691512078956" duration="2622000" />
       <workItem from="1691514953619" duration="296000" />
-      <workItem from="1691825468139" duration="16012000" />
+      <workItem from="1691825468139" duration="16822000" />
+      <workItem from="1691846490225" duration="50000" />
+      <workItem from="1691847524123" duration="8000" />
+      <workItem from="1692290725008" duration="13263000" />
+      <workItem from="1692337204609" duration="11034000" />
     </task>
     <servers />
   </component>

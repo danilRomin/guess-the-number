@@ -169,6 +169,7 @@ a {
 }
 
 .mark {
+  cursor: pointer!important;
   &:before {
     opacity: 1 !important;
   }
@@ -275,23 +276,60 @@ a {
   border-radius: 10px;
 }
 
-.disabled {
-  pointer-events: none;
-  opacity: .2;
-}
-
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 .int:focus-visible {
   background-color: inherit;
-  border: 1px solid white!important;
+  border: 1px solid white !important;
   border-radius: 5px;
   height: 50px;
   color: white;
   padding-left: 15px;
   font-size: 20px;
   width: 200px;
+}
+
+// Выбор сложности
+
+.difficulty {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 40vh;
+  row-gap: 80px;
+  @media (max-width: 430px) {
+    margin-top: 30vh;
+  }
+}
+
+.difficulty p {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.difficulty__choose {
+  color: white;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.difficulty button {
+  width: 300px !important;
+  font-size: 20px;
+  font-weight: 300;
+  @media (max-width: 900px) {
+    width: 250px!important;
+  }
 }

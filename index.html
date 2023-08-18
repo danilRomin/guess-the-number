@@ -2,35 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Строчка, которая делает магию-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Угадай число</title>
     <link rel="icon" href="icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./scss/styles.css">
 </head>
 <body>
-<section class="game">
+<section class="main">
     <div class="container">
-        <div class="game__nav">
-            <button class="glow__on__hover restart" type="button">Заново</button>
-            <span>Диапазон чисел: от 1 до 20</span>
-        </div>
-        <div class="number">
-            <span>Угадай число</span>
-            <div class="glow__on__hover mark">
-                ?
+        <div class="difficulty">
+            <p>Выберите уровень сложности<span style="cursor:help;"
+                                               title="От уровня сложности зависит количество попыток.">(?)</span>.</p>
+            <div class="difficulty__choose">
+                <button class="glow__on__hover easy" type="button">Легкий 👶</button>
+                <button class="glow__on__hover normal" type="button">Средний 👱‍♂️</button>
+                <button class="glow__on__hover hard" type="button">Сложный 💪</button>
             </div>
         </div>
-        <div class="interaction">
-            <form class="input">
-                <label for="int">
-                    <span class="input__span">Начните угадывать 👇</span>
-                </label>
-                <input id="int" class="int" type="number" value="" autocomplete="off">
-                <button class="glow__on__hover__int" type="button">Проверить</button>
-            </form>
-            <div class="counter">
-                <span class="counter__span">🔢 Количество попыток: <span class="counter__int">20</span></span>
-                <span class="record__span">🔥 Рекорд: <span class="counter__record">0</span></span>
+        <div class="game hide">
+            <div class="game__nav">
+                <button class="glow__on__hover restart" type="button">Заново</button>
+                <span>Диапазон чисел: от 1 до 20</span>
+            </div>
+            <div class="number">
+                <span>Угадай число</span>
+                <div class="glow__on__hover mark" title="Вернуться к выбору сложности">
+                    ?
+                </div>
+            </div>
+            <div class="interaction">
+                <form class="input">
+                    <label for="int">
+                        <span class="input__span">Начните угадывать 👇</span>
+                    </label>
+                    <input id="int" class="int" type="number" autocomplete="off">
+                    <button class="glow__on__hover__int reset" type="button">Проверить</button>
+                </form>
+                <div class="counter">
+                    <span class="counter__span">
+                        🔢 Количество попыток:
+                        <span class="counter__int">
+                            <span class="counter__int__easy hide">20</span>
+                            <span class="counter__int__normal hide">10</span>
+                            <span class="counter__int__hard hide">5</span>
+                        </span>
+                    </span>
+                    <span class="record__span">🔥 Рекорд: <span class="counter__record">0</span></span>
+                </div>
             </div>
         </div>
     </div>

@@ -1,3 +1,25 @@
 $red: #FF0000A8;
 $brownBorder:#cfcfcf;
 $brownText: #818181;
+
+.hide {
+  display: none!important;
+}
+
+.show {
+  display: block!important;
+}
+
+.show__flex {
+  display: flex!important;
+}
+
+.disabled {
+  pointer-events: none!important;
+  opacity: .2;
+}
+
+.disabled__low__opacity {
+  pointer-events: none!important;
+  opacity: .5;
+}

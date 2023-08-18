@@ -139,12 +139,15 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
         document.querySelector(".glow__on__hover__int").classList.toggle("disabled");
     }
 });
+
+
 //При нажатии на кнопку - фокус в инпут; анфокус при проигрыше
-document.querySelector(".glow__on__hover__int").addEventListener("click", () => {
+document.querySelector(".glow__on__hover__int").addEventListener("click", (event) => {
+    document.querySelector(".int").focus();
     if (remainedTry === 0 || win === true) {
         document.querySelector(".int").blur();
         document.querySelector(".int").classList.toggle("disabled__low__opacity")
-    } else document.querySelector(".int").focus();
+    }
 });
 // Кнопка "заново" - сброс всех изменений и счетчиков
 document.querySelector(".restart").addEventListener("click", () => {

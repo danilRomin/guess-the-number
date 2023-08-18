@@ -1,24 +1,19 @@
 // Предупреждение о выборе сложности
-// window.onload = function() {
-//     setTimeout(function() {
-//         alert("Вы можете поменять уровень сложности во время игры, нажав на кнопку вопросительного знака.");
-//     }, 1000);
-// };
-
-document.querySelector('.int').addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-        event.preventDefault();
-        document.querySelector('.reset').click();
-    }
-});
-
+if (!sessionStorage.getItem('isFirstLoad')) {
+    window.onload = () => {
+        setTimeout(() => {
+            alert("Вы можете изменить уровень сложности во время игры, нажав на кнопку с вопросительным знаком.");
+        }, 1000);
+    };
+    sessionStorage.setItem('isFirstLoad', true);
+}
 // Выбор сложности
 const easy = document.querySelector(".easy")
 const normal = document.querySelector(".normal")
 const hard = document.querySelector(".hard")
 const difficulty = document.querySelector(".difficulty")
 const game = document.querySelector(".game")
-
+// Легкая сложность
 easy.addEventListener("click", () => {
     chooseId = 1 // Идентификатор выбора
     difficulty.classList.toggle("hide")
@@ -33,6 +28,7 @@ easy.addEventListener("click", () => {
 // Общее количество кликов
     counterAll = 0;
 })
+// Норм сложность
 normal.addEventListener("click", () => {
     chooseId = 2 // Идентификатор выбора
     difficulty.classList.toggle("hide")
@@ -47,6 +43,7 @@ normal.addEventListener("click", () => {
 // Общее количество кликов
     counterAll = 0;
 })
+// Тяж сложность
 hard.addEventListener("click", () => {
     chooseId = 3 // Идентификатор выбора
     difficulty.classList.toggle("hide")
@@ -61,42 +58,23 @@ hard.addEventListener("click", () => {
 // Общее количество кликов
     counterAll = 0;
 })
-
+// Нажатие на вопросительный знак
 document.querySelector(".mark").addEventListener("click", () => {
     document.querySelector(".int").value = "";
     window.location.reload()
     inRowLess = 0;
-// Значение "счетчика подряд" меньше
     inRowMore = 0;
-// Общее количество кликов
     counterAll = 0;
     difficulty.classList.toggle("hide")
     game.classList.toggle("hide")
-
 })
-
-
 // span "Начните угадывать"
 let inputSpan = document.querySelector(".input__span")
-
 // Рандомное число
 let randomNumber = Math.floor(Math.random() * 20) + 1;
-console.log(randomNumber)
-// Отправка рандомного числа из инпута в переменную
-
-// // Значение "счетчика подряд" меньше
-// let inRowLess = 0;
-// // Значение "счетчика подряд" меньше
-// let inRowMore = 0;
-// // Общее количество кликов
-// let counterAll = 0;
-// // Количество попыток и рекорд
-
 let score = document.querySelector(".counter__int");
 let highScore = 0;
-// Массив для переноса значений после победы/поражения
-
-
+// Логика игры
 document.querySelector(".glow__on__hover__int").addEventListener("click", () => {
     let inputNumber = +document.querySelector(".int").value;
     if (inputNumber > 0 && inputNumber < 21) {
@@ -180,18 +158,15 @@ document.querySelector(".restart").addEventListener("click", () => {
     document.querySelector(".int").classList.remove("disabled__low__opacity");
     document.querySelector(".mark").textContent = "?";
     document.querySelector(".int").value = "";
-
     // Сброс счетчиков оставшихся попыток и рекорда, исходя из уровня сложности
-    if (chooseId == 1) {
+    if (chooseId === 1) {
         remainedTry = 20;
         score.textContent = 20;
-    } else if (chooseId == 2) {
+    } else if (chooseId === 2) {
         remainedTry = 10;
         score.textContent = 10;
-    } else if (chooseId == 3) {
+    } else if (chooseId === 3) {
         remainedTry = 5;
         score.textContent = 5;
     }
-
-    console.log(randomNumber)
 })

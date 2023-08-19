@@ -8,6 +8,8 @@ if (!sessionStorage.getItem('isFirstLoad')) {
     sessionStorage.setItem('isFirstLoad', true);
 }
 
+
+
 // Выбор сложности
 const easy = document.querySelector(".easy")
 const normal = document.querySelector(".normal")
@@ -24,7 +26,7 @@ easy.addEventListener("click", () => {
     document.querySelector(".counter__int__easy").classList.remove("hide")
     document.querySelector(".counter__int__normal").classList.add("hide")
     document.querySelector(".counter__int__hard").classList.add("hide")
-    inRowLess = 0;
+        inRowLess = 0;
 
 // Значение "счетчика подряд" меньше
     inRowMore = 0;
@@ -209,5 +211,3 @@ document.addEventListener("keyup", (event) => {
         document.querySelector(".overlay").classList.add("hide")
     }
 })
-
-console.log(randomNumber)

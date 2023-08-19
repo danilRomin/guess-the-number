@@ -8,7 +8,12 @@ if (!sessionStorage.getItem('isFirstLoad')) {
     sessionStorage.setItem('isFirstLoad', true);
 }
 
-
+let inRowMore = 0;
+let chooseId = 0;
+let remainedTry = 20;
+let inRowLess = 0;
+let counterAll = 0;
+let win = false;
 
 // Выбор сложности
 const easy = document.querySelector(".easy")
@@ -26,12 +31,8 @@ easy.addEventListener("click", () => {
     document.querySelector(".counter__int__easy").classList.remove("hide")
     document.querySelector(".counter__int__normal").classList.add("hide")
     document.querySelector(".counter__int__hard").classList.add("hide")
-        inRowLess = 0;
-
-// Значение "счетчика подряд" меньше
+    inRowLess = 0;
     inRowMore = 0;
-
-// Общее количество кликов
     counterAll = 0;
 })
 
@@ -130,7 +131,7 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
             document.querySelector(".mark").textContent = randomNumber;
             // Рекорд
             if (remainedTry > highScore) {
-                highScore = remainedTry;
+                highScore = (remainedTry + 1);
                 document.querySelector(".counter__record").textContent = highScore;
             }
             document.querySelector("html").style.cssText = `background-color: #19d31c;`;
@@ -146,7 +147,7 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
     // Если попытки кончились
     if (remainedTry < 1 && inputNumber !== randomNumber) {
         inputSpan.textContent = "Вы проиграли! 😭";
-        document.querySelector(".mark").textContent = randomNumber;
+        document.querySelector(".mark").textContent = (randomNumber + 1);
         document.querySelector("html").style.cssText = `
                 background-color: #ff0000ed;
             `;
@@ -211,3 +212,5 @@ document.addEventListener("keyup", (event) => {
         document.querySelector(".overlay").classList.add("hide")
     }
 })
+
+console.log(randomNumber)

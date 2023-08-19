@@ -43,9 +43,7 @@
       <change beforePath="$PROJECT_DIR$/../dom/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dom/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gazpromin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../gazpromin/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/gorod.iml" beforeDir="false" />
@@ -242,7 +240,7 @@
       <workItem from="1692377643210" duration="2260000" />
       <workItem from="1692380310000" duration="7720000" />
       <workItem from="1692464324108" duration="3083000" />
-      <workItem from="1692467455811" duration="1020000" />
+      <workItem from="1692467455811" duration="4074000" />
     </task>
     <servers />
   </component>

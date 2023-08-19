@@ -130,9 +130,9 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
             inputSpan.textContent = "В точку! 🎉🎊";
             document.querySelector(".mark").textContent = randomNumber;
             // Рекорд
-            if (remainedTry > highScore) {
-                highScore = (remainedTry + 1);
-                document.querySelector(".counter__record").textContent = highScore;
+            if (remainedTry > highScore || highScore < 1) {
+                highScore = (remainedTry);
+                document.querySelector(".counter__record").textContent = remainedTry+1;
             }
             document.querySelector("html").style.cssText = `background-color: #19d31c;`;
             // Изменение кнопки на disabled и сброс счетчиков
@@ -147,16 +147,14 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
     // Если попытки кончились
     if (remainedTry < 1 && inputNumber !== randomNumber) {
         inputSpan.textContent = "Вы проиграли! 😭";
-        document.querySelector(".mark").textContent = (randomNumber + 1);
-        document.querySelector("html").style.cssText = `
-                background-color: #ff0000ed;
-            `;
+        document.querySelector(".mark").textContent = randomNumber;
+        document.querySelector("html").style.cssText = `background-color: #ff0000ed;`;
         document.querySelector(".glow__on__hover__int").classList.toggle("disabled");
     }
 });
 
 //При нажатии на кнопку - фокус в инпут; анфокус при проигрыше
-document.querySelector(".glow__on__hover__int").addEventListener("click", (event) => {
+document.querySelector(".glow__on__hover__int").addEventListener("click", () => {
     document.querySelector(".int").focus();
     if (remainedTry === 0 || win === true) {
         document.querySelector(".int").blur();
@@ -168,13 +166,13 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", (event
 document.querySelector(".restart").addEventListener("click", () => {
     win = false
     inputSpan.textContent = "Начните угадывать 👇";
-    randomNumber = Math.floor(Math.random() * 20) + 1;
+    randomNumber = Math.floor(Math.random() * 30) + 1;
     document.querySelector("html").style.cssText = `background-color: #111;`;
     document.querySelector(".glow__on__hover__int").classList.remove("disabled");
     document.querySelector(".int").classList.remove("disabled__low__opacity");
     document.querySelector(".mark").textContent = "?";
     document.querySelector(".int").value = "";
-
+    console.log(randomNumber)
     // Сброс счетчиков оставшихся попыток и рекорда, исходя из уровня сложности
     if (chooseId === 1) {
         remainedTry = 20;
@@ -197,7 +195,7 @@ document.querySelector('.int').addEventListener("keydown", function (event) {
 });
 
 // Модальное окно
-function modalToggle () {
+function modalToggle() {
     document.querySelector(".modal").classList.toggle("hide")
     document.querySelector(".overlay").classList.toggle("hide")
 }

@@ -85,14 +85,14 @@ document.querySelector(".mark").addEventListener("click", () => {
 let inputSpan = document.querySelector(".input__span")
 
 // Рандомное число
-let randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 30) + 1;
 let score = document.querySelector(".counter__int");
 let highScore = 0;
 
 // Логика игры
 document.querySelector(".glow__on__hover__int").addEventListener("click", () => {
     let inputNumber = +document.querySelector(".int").value;
-    if (inputNumber > 0 && inputNumber < 21) {
+    if (inputNumber > 0 && inputNumber < 31) {
         counterAll++;
         remainedTry--;
         score.textContent = remainedTry;
@@ -139,8 +139,8 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
         }
         //     Если пользователь не ввел число
     } else if (!inputNumber) {
-        inputSpan.textContent = "Введите число от 1 до 20.";
-    } else inputSpan.textContent = "Введите число от 1 до 20.";
+        inputSpan.textContent = "Введите число от 1 до 30.";
+    } else inputSpan.textContent = "Введите число от 1 до 30.";
     // Если попытки кончились
     if (remainedTry < 1 && inputNumber !== randomNumber) {
         inputSpan.textContent = "Вы проиграли! 😭";
@@ -209,3 +209,5 @@ document.addEventListener("keyup", (event) => {
         document.querySelector(".overlay").classList.add("hide")
     }
 })
+
+console.log(randomNumber)

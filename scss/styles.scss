@@ -444,3 +444,9 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 10px;
 }
 
+.main__text {
+    max-width: fit-content;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}

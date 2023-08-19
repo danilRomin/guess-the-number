@@ -85,7 +85,7 @@ document.querySelector(".mark").addEventListener("click", () => {
 let inputSpan = document.querySelector(".input__span")
 
 // Рандомное число
-let randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 30) + 1;
 let score = document.querySelector(".counter__int");
 let highScore = 0;
 

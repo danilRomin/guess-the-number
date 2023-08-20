@@ -7,12 +7,17 @@ if (!sessionStorage.getItem('isFirstLoad')) {
     };
     sessionStorage.setItem('isFirstLoad', true);
 }
-
+// Счетчик больше
 let inRowMore = 0;
-let chooseId = 0;
-let remainedTry = 20;
+// Счетчик меньше
 let inRowLess = 0;
+// Уровень сложности
+let chooseId = 0;
+// Оставшиеся попытки
+let remainedTry = 20;
+// Количество нажатий
 let counterAll = 0;
+// Индикатор победы
 let win = false;
 
 // Выбор сложности
@@ -46,11 +51,7 @@ normal.addEventListener("click", () => {
     document.querySelector(".counter__int__normal").classList.remove("hide")
     document.querySelector(".counter__int__hard").classList.add("hide")
     inRowLess = 0;
-
-// Значение "счетчика подряд" меньше
     inRowMore = 0;
-
-// Общее количество кликов
     counterAll = 0;
 })
 
@@ -64,11 +65,7 @@ hard.addEventListener("click", () => {
     document.querySelector(".counter__int__normal").classList.add("hide")
     document.querySelector(".counter__int__hard").classList.remove("hide")
     inRowLess = 0;
-
-// Значение "счетчика подряд" меньше
     inRowMore = 0;
-
-// Общее количество кликов
     counterAll = 0;
 })
 
@@ -173,6 +170,8 @@ document.querySelector(".restart").addEventListener("click", () => {
     document.querySelector(".mark").textContent = "?";
     document.querySelector(".int").value = "";
     console.log(randomNumber)
+    inRowLess = 0;
+    inRowMore = 0;
     // Сброс счетчиков оставшихся попыток и рекорда, исходя из уровня сложности
     if (chooseId === 1) {
         remainedTry = 20;

@@ -14,7 +14,7 @@ let inRowLess = 0;
 // Уровень сложности
 let chooseId = 0;
 // Оставшиеся попытки
-let remainedTry = 20;
+let remainedTry = 0;
 // Количество нажатий
 let counterAll = 0;
 // Индикатор победы
@@ -85,14 +85,14 @@ document.querySelector(".mark").addEventListener("click", () => {
 let inputSpan = document.querySelector(".input__span")
 
 // Рандомное число
-let randomNumber = Math.floor(Math.random() * 30) + 1;
+let randomNumber = Math.floor(Math.random() * 50) + 1;
 let score = document.querySelector(".counter__int");
 let highScore = 0;
 
 // Логика игры
 document.querySelector(".glow__on__hover__int").addEventListener("click", () => {
     let inputNumber = +document.querySelector(".int").value;
-    if (inputNumber > 0 && inputNumber < 31) {
+    if (inputNumber > 0 && inputNumber < 51) {
         counterAll++;
         remainedTry--;
         score.textContent = remainedTry;
@@ -139,8 +139,8 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
         }
         //     Если пользователь не ввел число
     } else if (!inputNumber) {
-        inputSpan.textContent = "Введите число от 1 до 30.";
-    } else inputSpan.textContent = "Введите число от 1 до 30.";
+        inputSpan.textContent = "Введите число от 1 до 50.";
+    } else inputSpan.textContent = "Введите число от 1 до 50.";
     // Если попытки кончились
     if (remainedTry < 1 && inputNumber !== randomNumber) {
         inputSpan.textContent = "Вы проиграли! 😭";
@@ -163,7 +163,7 @@ document.querySelector(".glow__on__hover__int").addEventListener("click", () => 
 document.querySelector(".restart").addEventListener("click", () => {
     win = false
     inputSpan.textContent = "Начните угадывать 👇";
-    randomNumber = Math.floor(Math.random() * 30) + 1;
+    randomNumber = Math.floor(Math.random() * 50) + 1;
     document.querySelector("html").style.cssText = `background-color: #111;`;
     document.querySelector(".glow__on__hover__int").classList.remove("disabled");
     document.querySelector(".int").classList.remove("disabled__low__opacity");

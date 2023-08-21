@@ -43,6 +43,7 @@
       <change beforePath="$PROJECT_DIR$/../dom/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dom/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../dom/scss/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gazpromin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../gazpromin/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gorod/.idea/.gitignore" beforeDir="false" />
@@ -242,6 +243,8 @@
       <workItem from="1692464324108" duration="3083000" />
       <workItem from="1692467455811" duration="4250000" />
       <workItem from="1692555200713" duration="195000" />
+      <workItem from="1692555412038" duration="71000" />
+      <workItem from="1692556397336" duration="358000" />
     </task>
     <servers />
   </component>
